@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@900&family=Outfit&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    width: 100%;
+    max-width: 1449px;
+    margin: 0 auto;
+    background-color: #444;
+}
+.header{
+    margin: 0 auto;
+    margin-top: 180px;
+    width: 100%;
+    max-width: 1110px;
+    display: flex;
+    justify-content: space-between;
+    .header-text{
+        width: 100%;
+        max-width: 350px;
+        height: 280px;
+       h2{
+        font-weight: 900;
+        font-size: 60px;
+        line-height: 100%;
+        text-transform: uppercase;
+        color: #151515;
+       }
+        p{
+            font-weight: 300;
+            font-size: 22px;
+            line-height: 145%;
+            color: #444;
+        }
+    }
+    .muzey{
+      img{
+        width: 100%;
+        max-width: 635px;
+        height: 400px;
+
+      }
+    }
+}
+.main{
+    margin: 0 auto;
+    display: flex;
+    margin-top: 30px;
+    width: 100%;
+    max-width: 1110px;
+    gap:30px ;
+    .main-chair{
+        img{
+            width: 100%;
+            max-width: 635px;
+            height: 720px;
+        }
+    }
+    .wrapper{
+        .wrapper-img{
+           img{
+            width: 100%;
+            max-width: 445px;
+            height: 313px;
+           }
+        }
+        .wrapper-text{
+            padding-top: 30px;
+            background-color: #151515;
+            width: 100%;
+            max-width: 445px;
+            height: 377px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            padding: 65px 48px;
+            gap: 30px;
+            h2{
+                color: #fff;
+                font-weight: 900;
+                font-size: 60px;
+                line-height: 100%;
+                text-transform: uppercase; 
+            }
+            p{
+                color: #fff;
+                font-weight: 400;
+                font-size: 22px;
+                line-height: 145%;
+            }
+        }
+    }
+}
+.footer{
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    background-color: #151515;
+    width: 100%;
+    max-width: 1440px;
+    height: 244px;
+    margin-top: 180px;
+    .footer-content{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        padding: 80px 165px;
+        .footer-text{
+          width: 100%;
+          max-width: 205px;
+          height: 58px;
+        h2{
+          color: #fff;
+    }
+}
+.footer-texts{
+    margin: 0 auto;
+    width: 100%;
+    max-width: 420px;
+    height: 84px;
+    p{
+    color: #fff;
+    }
+}
+.min3{
+    img{
+        width: 100px;
+    height: 20px;
+    }
+}
+    }
+}
